@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Aloush - Smart Code Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Video Intro -->
+    <div class="video-intro">
+        <video autoplay muted loop>
+            <source src="videos/code-animation.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <div class="logo-animation">
+                <span class="glow-text-purple">Ahmed</span>
+                <span class="glow-text-cyan">Aloush</span>
+            </div>
+            <div class="tagline glow-text-green">Smart Code Solutions</div>
+        </div>
+        <button class="skip-intro">Skip Intro</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="glow-text-purple">Ahmed</span>
+                <span class="glow-text-cyan">Aloush</span>
+            </div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="video-container">
+            <video autoplay muted loop poster="images/code-bg.jpg">
+                <source src="videos/code-animation.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="glow-text-purple">Ahmed Aloush</h1>
+            <p class="slogan glow-text-cyan">Smart Code Solutions</p>
+            
+            <div class="profile-image">
+                <img src="images/profile-placeholder.jpg" alt="Ahmed Aloush">
+            </div>
+            
+            <div class="typing-container">
+                <span id="typing-text" class="glow-text-green"></span>
+                <span class="cursor"></span>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="parallax-bg">
+            <div class="parallax-layer" data-speed="0.1"></div>
+            <div class="parallax-layer" data-speed="0.2"></div>
+        </div>
+        <div class="container">
+            <h2><span class="glow-text-purple">About</span> Me</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="glow-text-cyan">Who am I?</h3>
+                    <p>I'm Ahmed Aloush, a passionate Full Stack Developer and Creative Coder with a strong focus on creating elegant, efficient, and user-friendly applications.</p>
+                    <p>With expertise in both frontend and backend technologies, I bring ideas to life through clean code and innovative solutions. My approach combines technical excellence with creative problem-solving.</p>
+                    <p>I'm constantly learning and exploring new technologies to stay at the cutting edge of web development and deliver the best possible solutions for my clients.</p>
+                    <button class="btn btn-primary">Download CV</button>
+                </div>
+                
+                <div class="skills">
+                    <h3 class="glow-text-cyan">My Skills</h3>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span>HTML</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress html" data-progress="95"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span>CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress css" data-progress="95"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span>JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress javascript" data-progress="75"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span>React</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress react" data-progress="60"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span>Python</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress python" data-progress="70"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span>Java</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress java" data-progress="60"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="parallax-bg">
+            <div class="parallax-layer" data-speed="0.15"></div>
+            <div class="parallax-layer" data-speed="0.25"></div>
+        </div>
+        <div class="container">
+            <h2>My <span class="glow-text-cyan">Projects</span></h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.png" alt="E-Commerce Platform">
+                    </div>
+                    <div class="project-content">
+                        <h3>presentation for java proj</h3>
+                        <p>a moder presentation for my jave project hotel managment system </p>
+                        <div class="project-tags">
+                            <span>html</span>
+                            <span>css</span>
+                            <span>javascript</span>
+                        </div>
+                        <a href="#" class="btn btn-project">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.png" alt="Task Management App">
+                    </div>
+                    <div class="project-content">
+                        <h3>hotel managment system</h3>
+                        <p>a fully optioned hotel system with database </p>
+                        <div class="project-tags">
+                            <span>java</span>
+                        
+                        </div>
+                        <a href="#" class="btn btn-project">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.png" alt="Weather Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h3>connet 4</h3>
+                        <p>Interactive connect 4 gmae with ai advanced feturs</p>
+                        <div class="project-tags">
+                            <span>java</span>
+                            <span>paython</span>
+                          
+                        </div>
+                        <a href="#" class="btn btn-project">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project4.png" alt="Portfolio Website">
+                    </div>
+                    <div class="project-content">
+                        <h3>Public transportation Website</h3>
+                        <p>A responsive advanced Public transportation website for make transportation easiar </p>
+                        <div class="project-tags">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                        <a href="#" class="btn btn-project">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project5.png" alt="Social Media Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h3>data analysis Dashboard</h3>
+                        <p>Analytics dashboard for dataset that had trained and cleaned by py</p>
+                        <div class="project-tags">
+                            <span>python</span>
+                            <span>html\css\js</span>
+                            <span>Data Visualization</span>
+                        </div>
+                        <a href="#" class="btn btn-project">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project6.png" alt="Mobile Fitness App">
+                    </div>
+                    <div class="project-content">
+                        <h3>8 puzzel solver</h3>
+                        <p>advanced 8 puzzel solver using min-max.</p>
+                        <div class="project-tags">
+                            <span>java</span>
+                         
+                        </div>
+                        <a href="#" class="btn btn-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="parallax-bg">
+            <div class="parallax-layer" data-speed="0.2"></div>
+            <div class="parallax-layer" data-speed="0.3"></div>
+        </div>
+        <div class="container">
+            <h2>Get In <span class="glow-text-green">Touch</span></h2>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h3 class="glow-text-cyan">Send Me a Message</h3>
+                    
+                    <div class="contact-method-selector">
+                        <div class="contact-method-option active" data-method="whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </div>
+                        <div class="contact-method-option" data-method="email">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </div>
+                    </div>
+                    
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    
+                    <!-- Rating Tool -->
+                    <div class="rating-container">
+                        <h4 class="rating-title">Rate My Website</h4>
+                        <div class="rating-stars">
+                            <i class="fas fa-star rating-star" data-rating="1"></i>
+                            <i class="fas fa-star rating-star" data-rating="2"></i>
+                            <i class="fas fa-star rating-star" data-rating="3"></i>
+                            <i class="fas fa-star rating-star" data-rating="4"></i>
+                            <i class="fas fa-star rating-star" data-rating="5"></i>
+                        </div>
+                        <div class="rating-feedback"></div>
+                        <button class="rating-submit" disabled>Submit Rating</button>
+                        <div class="rating-thanks">Thank you for your feedback!</div>
+                    </div>
+                </div>
+                
+                <div class="contact-info">
+                    <h3 class="glow-text-cyan">Contact Information</h3>
+                    
+                    <p>Feel free to reach out to me through any of the channels below. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    
+                    <a href="https://wa.me/01277576772" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i>
+                        Chat on WhatsApp
+                    </a>
+                    
+                    <div class="social-links">
+                        <h4>Connect With Me</h4>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/share/16SQUNNQAw/" class="social-btn facebook" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@ahmedaloush2005" class="social-btn tiktok" aria-label="TikTok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <a href="https://www.instagram.com/ahmed_aloush_2005" class="social-btn instagram" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://wa.me/01277576772" class="social-btn whatsapp" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="mailto:ahmedmefhat8@gmail.com" class="social-btn email" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- Reviews Section -->
+<div id="reviews-display" class="rating-container">
+    <h4 class="rating-title">What others say:</h4>
+    <div id="reviews-list"></div>
+</div>
+
+    </section>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Ahmed Aloush. All rights reserved.</p>
+    </footer>
+
+    <canvas id="particles-canvas"></canvas>
+    <div id="code-snippets"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
