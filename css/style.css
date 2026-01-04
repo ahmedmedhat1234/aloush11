@@ -52,7 +52,7 @@ body {
 section {
   padding: 80px 0;
   position: relative;
-  overflow: hidden;
+  /* Removed overflow: hidden to prevent cutting off scroll animations or content */
 }
 
 h1,
