@@ -1,45 +1,14 @@
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
-    // Video Intro
-    const videoIntro = document.querySelector('.video-intro');
-    const skipIntro = document.querySelector('.skip-intro');
-    const mainContent = document.querySelector('body');
-    
-    // Auto-hide intro after 6 seconds
-    setTimeout(() => {
-        if (videoIntro) {
-            videoIntro.classList.add('hidden');
-            enableScroll();
-        }
-    }, 6000);
-    
-    // Skip intro button
-    if (skipIntro) {
-        skipIntro.addEventListener('click', () => {
-            videoIntro.classList.add('hidden');
-            enableScroll();
-        });
-    }
-    
-    // Disable scroll during intro
-    function disableScroll() {
-        document.body.style.overflow = 'hidden';
-    }
-    
-    // Enable scroll after intro
-    function enableScroll() {
-        document.body.style.overflow = '';
-    }
-    
-    // Initially disable scroll
-    disableScroll();
+    // Video Intro Logic Removed
+
     
     // Set current year in footer
     document.getElementById('current-year').textContent = new Date().getFullYear();
     
     // Typing effect with improved animation
     const typingText = document.getElementById('typing-text');
-    const fullText = 'Full Stack Developer & Creative Coder';
+    const fullText = 'Creative Duo & Full Stack Developers';
     let index = 0;
     
     function typeText() {
